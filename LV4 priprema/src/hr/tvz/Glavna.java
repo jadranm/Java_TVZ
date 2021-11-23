@@ -1,5 +1,6 @@
 package hr.tvz;
 import java.util.Scanner;
+
 /*
 Napisati program koji će od korisnika prvo učitati količinu cijelih brojeva koje je potrebno unijeti te nakon toga učitati
 te brojeve i spremiti ih u polje. Pronaći broj koji se najčešće pojavljuje u polju i ispisati ga. Također pronaći i broj
@@ -46,7 +47,6 @@ public class Glavna {
 
         System.out.println("\nNajcesce se ponavlja broj: " +rezultat);
 
-
         Float[] razlika = new Float[odabir];
 
         srednja=(float)zbroj/odabir;
@@ -67,8 +67,7 @@ public class Glavna {
                     min = razlika[i];
                     n=i;
                 }
-        }
+            }
         System.out.println("Broj koji je najblizi srednjoj vrijednosti: " +objekti[n]);
-
     }
 }
