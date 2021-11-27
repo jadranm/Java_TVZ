@@ -32,4 +32,3 @@ public class Glavna {
         System.out.println("Najkrača riječ je: "+rijeci[0]);
     }
 }
-j
