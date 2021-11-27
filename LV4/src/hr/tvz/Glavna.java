@@ -15,17 +15,16 @@ public class Glavna {
         System.out.printf("Upisi "+BROJ_UPISA+" razlicitih brojeva: ");
 
         for (int i=0;i<BROJ_UPISA;i++){
-
             objekti[i]=input.nextInt();
-
+            
             for (int j=0;j<i;j++){
-
                 if (objekti[i]==objekti[j]){
                     System.out.println("unesen je isti broj");
                     i--;
                 }
             }
         }
+        
         for (int i=0;i<BROJ_UPISA;i++)
             zbroj += objekti[i];
 
